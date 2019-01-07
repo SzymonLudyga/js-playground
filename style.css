@@ -1,0 +1,38 @@
+body
+{
+	background-color: #000000;
+	color: lightgray;
+	font-size: 28px;
+}
+
+#box
+{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#small_box
+{
+	width: 90px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 48px;
+}
+
+#hang_man
+{
+	float: left;
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+}
+
+#alphabet
+{
+	float: left;
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+}

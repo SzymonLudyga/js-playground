@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<title>Teraz slider</title>
+<head>
+	<script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
+  <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+	<script src="real_slider.js"></script>
+</head>
+<body onload="changeSlide()">
+	
+	<span onclick="setSlide(1)" style="cursor:pointer;">{1}</span>
+	<span onclick="setSlide(2)" style="cursor:pointer;">{2}</span>
+	<span onclick="setSlide(3)" style="cursor:pointer;">{3}</span>
+	<span onclick="setSlide(4)" style="cursor:pointer;">{4}</span>
+	<span onclick="setSlide(5)" style="cursor:pointer;">{5}</span>
+
+	<div id="slider"></div>
+
+</body>
+</html>
